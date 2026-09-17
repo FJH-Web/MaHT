@@ -1,0 +1,47 @@
+[
+  {
+    "filename": "NHANES_statbench.csv",
+    "rows": 8704,
+    "columns": 49,
+    "bytes": 2210610,
+    "sha256": "3ec632b535955e211ed074b5a592387eef7557af0b4bb552f5f6165bde943ab7",
+    "duplicate_column_names": false,
+    "all_empty_columns": []
+  },
+  {
+    "filename": "METABRIC_statbench.csv",
+    "rows": 1980,
+    "columns": 48,
+    "bytes": 1007645,
+    "sha256": "075e6a81fade2d84dea2d2013bc95a2bfdead8b4094881ca8f319927843440aa",
+    "duplicate_column_names": false,
+    "all_empty_columns": []
+  },
+  {
+    "filename": "MIMIC_IV_demo_statbench.csv",
+    "rows": 140,
+    "columns": 93,
+    "bytes": 120819,
+    "sha256": "7e7ea90dd5a4296c8d2b1fe097658f27acbb1ea7b45791c9a1638061e193471b",
+    "duplicate_column_names": false,
+    "all_empty_columns": []
+  },
+  {
+    "filename": "Inside_Airbnb_NYC_statbench.csv",
+    "rows": 10000,
+    "columns": 30,
+    "bytes": 2644671,
+    "sha256": "328429b3c0da8f72834fc67eedf738ed243a9691b4efae96884473c64c846e05",
+    "duplicate_column_names": false,
+    "all_empty_columns": []
+  },
+  {
+    "filename": "Bike_Sharing_statbench.csv",
+    "rows": 17379,
+    "columns": 17,
+    "bytes": 1398726,
+    "sha256": "8ab97ad56f3c5dc1556cfd915e043641e5dae970302b314d6339cb831bf6187d",
+    "duplicate_column_names": false,
+    "all_empty_columns": []
+  }
+]

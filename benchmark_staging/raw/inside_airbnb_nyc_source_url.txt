@@ -1,0 +1,2 @@
+Official file blocked with HTTP 403: https://data.insideairbnb.com/united-states/ny/new-york-city/2025-01-03/data/listings.csv.gz
+Mirror used: https://huggingface.co/datasets/gradio/NYC-Airbnb-Open-Data/resolve/main/AB_NYC_2019.csv?download=true

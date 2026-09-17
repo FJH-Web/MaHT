@@ -1,0 +1,91 @@
+{
+  "NHANES_statbench.csv": {
+    "rows": 8704,
+    "columns": 49,
+    "key": "SEQN",
+    "key_unique": true,
+    "critical_nonmissing": {
+      "BMXBMI": 8005,
+      "BMXHT": 8016,
+      "BMXWT": 8580,
+      "LBXGLU": 2891,
+      "LBXTC": 6738
+    }
+  },
+  "METABRIC_statbench.csv": {
+    "rows": 1980,
+    "columns": 48,
+    "key": "SAMPLE_ID",
+    "key_unique": true,
+    "critical_nonmissing": {
+      "TUMOR_SIZE": 1954,
+      "GRADE": 1892,
+      "CLAUDIN_SUBTYPE": 1980,
+      "LYMPH_NODES_EXAMINED_POSITIVE": 1904,
+      "EXPR_ESR1": 1980
+    },
+    "subtype_counts": {
+      "LumA": 700,
+      "LumB": 475,
+      "Her2": 224,
+      "claudin-low": 218,
+      "Basal": 209,
+      "Normal": 148,
+      "NC": 6
+    }
+  },
+  "MIMIC_IV_demo_statbench.csv": {
+    "rows": 140,
+    "columns": 93,
+    "key": "stay_id",
+    "key_unique": true,
+    "critical_nonmissing": {
+      "gender": 140,
+      "age_at_admission": 140,
+      "los": 140,
+      "heart_rate_bpm_mean": 140,
+      "sbp_mmhg_mean": 139,
+      "creatinine_mg_dl_mean": 140,
+      "glucose_mg_dl_mean": 140
+    },
+    "gender_counts": {
+      "M": 77,
+      "F": 63
+    },
+    "hypertension_dx_counts": {
+      "1": 79,
+      "0": 61
+    }
+  },
+  "Inside_Airbnb_NYC_statbench.csv": {
+    "rows": 10000,
+    "columns": 30,
+    "key": "id",
+    "key_unique": true,
+    "critical_nonmissing": {
+      "price": 10000,
+      "room_type": 10000,
+      "number_of_reviews": 10000,
+      "availability_365": 10000,
+      "minimum_nights": 10000
+    },
+    "price_skew": 12.9363037573276,
+    "room_type_counts": {
+      "Entire home/apt": 5189,
+      "Private room": 4570,
+      "Shared room": 241
+    }
+  },
+  "Bike_Sharing_statbench.csv": {
+    "rows": 17379,
+    "columns": 17,
+    "key": "datetime",
+    "key_unique": true,
+    "critical_nonmissing": {
+      "temp": 17379,
+      "humidity": 17379,
+      "windspeed": 17379,
+      "cnt": 17379
+    }
+  }
+}
